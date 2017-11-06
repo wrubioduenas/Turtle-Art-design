@@ -1,0 +1,14 @@
+import turtle 
+turtle.colormode(255)
+turtle.bgcolor("black")
+
+bob=turtle.Turtle()
+bob.speed(0)
+
+for times in range(300):
+    bob.circle(600)
+    bob.forward(40)
+    bob.left(49)
+    bob.color(times,255 - times ,0)
+    bob.width(10)
+    bob.right(10)
